@@ -3,21 +3,17 @@
   <channel>
     <title>生活 on 3055 的个人博客</title>
     <link>https://YJ3055.github.io/categories/%E7%94%9F%E6%B4%BB/</link>
-    <description>Recent content from 3055 的个人博客</description>
+    <description>Recent content in 生活 on 3055 的个人博客</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
-    
-    <managingEditor>3138388420@qq.com (3055)</managingEditor>
-    <webMaster>3138388420@qq.com (3055)</webMaster>
-    
-    <copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright>
-    
-    <lastBuildDate></lastBuildDate>
-    
-    
-    <atom:link href="https://YJ3055.github.io/categories/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss&#43;xml" />
-    
-
-    
+    <lastBuildDate>Sun, 24 May 2026 23:53:26 +0800</lastBuildDate>
+    <atom:link href="https://YJ3055.github.io/categories/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World，欢迎来到我的博客</title>
+      <link>https://YJ3055.github.io/post/hello-world/</link>
+      <pubDate>Sun, 24 May 2026 23:53:07 +0800</pubDate>
+      <guid>https://YJ3055.github.io/post/hello-world/</guid>
+      <description>&lt;h2 id=&#34;关于这个博客&#34;&gt;关于这个博客&lt;/h2&gt;&#xA;&lt;p&gt;折腾了好一阵子，终于把这个小站搭起来了。&lt;/p&gt;&#xA;&lt;p&gt;这里会放一些我拍的照片、录的视频，偶尔也写点东西。没有什么宏大的计划，只是想在这个互联网的角落里，给自己留一块自留地。&lt;/p&gt;&#xA;&lt;h2 id=&#34;关于我&#34;&gt;关于我&lt;/h2&gt;&#xA;&lt;p&gt;我是 3055。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;上上下下，我身体里的火车从来不会错轨，所以允许大雪，风暴，泥石流，和荒谬。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;这句话大概能概括我的人生态度。不管外面怎么变，心里的方向不会变。&lt;/p&gt;&#xA;&lt;h2 id=&#34;接下来&#34;&gt;接下来&lt;/h2&gt;&#xA;&lt;p&gt;博客会慢慢丰富起来，照片墙、作品集都会陆续上线。如果你碰巧路过，欢迎常来看看。&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
