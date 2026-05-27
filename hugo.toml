@@ -1,0 +1,11 @@
+baseURL = 'https://YJ3055.github.io/'
+locale = 'zh-CN'
+title = '3055 的个人博客'
+theme = 'hugo-theme-reimu'
+
+[params]
+  author = '3055'
+  description = '上上下下，我身体里的火车从来不会错轨，所以允许大雪，风暴，泥石流，和荒谬。'
+  email = '3138388420@qq.com'
+  avatar = 'avatar.webp'
+  banner = 'images/banner.webp'
