@@ -278,12 +278,35 @@
     var btn = document.getElementById('bgm-toggle');
     var playing = false;
     function toggleBGM() {
-      if (playing) { bgm.pause(); btn.style.background = '#24292e'; btn.innerHTML = '♪'; }
-      else { bgm.play(); btn.style.background = '#2ea44f'; btn.innerHTML = '♫'; }
-      playing = !playing;
+      if (playing) {
+        bgm.pause();
+        playing = false;
+        btn.style.background = '#24292e';
+        btn.innerHTML = '♪';
+      } else {
+        btn.innerHTML = '⏳';
+        btn.style.background = '#586069';
+        bgm.play().then(function() {
+          playing = true;
+          btn.style.background = '#2ea44f';
+          btn.innerHTML = '♫';
+        }).catch(function(e) {
+          console.log('播放失败：', e);
+          btn.style.background = '#24292e';
+          btn.innerHTML = '♪';
+        });
+      }
     }
     document.addEventListener('click', function once() {
-      if (!playing && bgm.paused) { bgm.play().then(function(){playing=true;btn.style.background='#2ea44f';btn.innerHTML='♫';}).catch(function(){}); }
+      if (!playing && bgm.paused) {
+        bgm.play().then(function() {
+          playing = true;
+          btn.style.background = '#2ea44f';
+          btn.innerHTML = '♫';
+        }).catch(function(e) {
+          console.log('自动播放失败：', e);
+        });
+      }
     }, {once:true});
   </script>
   
